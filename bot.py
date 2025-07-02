@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 import os, uuid, io
 
 load_dotenv()
-bot = Bot(token=os.getenv("BOT_TOKEN"))
+bot = Bot(token=os.getenv("7830923853:AAGXO2Ctsit7nucgd6yVR6LqhwnbfBY_E78"))
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands=["start"])
